@@ -1,5 +1,5 @@
 {
-  "name": "temp-app",
+  "name": "pdf-to-pptx",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "lucide-react": "^0.575.0",
     "next": "16.1.6",
+    "pdfjs-dist": "^5.4.624",
+    "pptxgenjs": "^4.0.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
