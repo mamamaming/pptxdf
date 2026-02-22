@@ -5,7 +5,10 @@ export async function generatePptx(pages: PageImage[]): Promise<Blob> {
     const pptx = new PptxGenJS();
 
     if (pages.length === 0) {
-        return (await pptx.write({ outputType: "blob" })) as Blob;
+        const emptyBlob = (await pptx.write({ outputType: "blob" })) as Blob;
+        return new Blob([emptyBlob], {
+            type: "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        });
     }
 
     // PDF dimensions are in points. Convert points to inches (72 points = 1 inch)
@@ -53,5 +56,9 @@ export async function generatePptx(pages: PageImage[]): Promise<Blob> {
 
     // Generate the PPTX as a Blob
     const blob = (await pptx.write({ outputType: "blob" })) as Blob;
-    return blob;
+
+    // Explicitly enforce the PPTX MIME type to prevent mobile browsers from appending .zip
+    return new Blob([blob], {
+        type: "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    });
 }
