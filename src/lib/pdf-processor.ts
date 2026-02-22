@@ -59,7 +59,7 @@ export async function processPdf(
             }).promise;
 
             // Extract image data
-            const dataUrl = canvas.toDataURL("image/png");
+            const dataUrl = canvas.toDataURL("image/jpeg", 1.0);
 
             images.push({
                 dataUrl,
