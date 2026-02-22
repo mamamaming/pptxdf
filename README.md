@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PPTXdf: Free Browser-Based PDF to PPTX Converter
 
-## Getting Started
+## What this Web App Is
+PPTXdf is a fast, completely private, browser-based web application that converts your PDF documents into editable PowerPoint (PPTX) presentations.
 
-First, run the development server:
+## The Problem It Solves (and Who It's For)
+Online document converters often require you to upload your sensitive files to their servers, raising significant privacy and security concerns. Additionally, server-based processing can be slow, especially for large files. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**This app is for anyone**—students, professionals, educators, and businesses—who needs to quickly convert PDFs to PowerPoint presentations without compromising their privacy. By processing the files entirely within your web browser, PPTXdf ensures that your documents never leave your device.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Use It
+Using PPTXdf is incredibly simple:
+1. Open the web app in your browser.
+2. Drag and drop your PDF file into the designated area (or click to browse and select a file).
+3. Wait a few moments while the app processes the conversion locally.
+4. Click the download button to save your new PPTX file to your computer.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Cost
+**This tool is 100% free.** There are no hidden fees, no subscriptions, and no paywalls.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Why I Built This
+This application is part of my ongoing project of building cool things to solve real problems. I believe in creating useful, accessible, and privacy-respecting tools that make people's lives easier!
