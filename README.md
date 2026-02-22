@@ -18,4 +18,4 @@ Using PPTXdf is incredibly simple:
 ## Cost
 **This tool is 100% free.** There are no hidden fees, no subscriptions, and no paywalls.
 
-# This application is part of my ongoing project to build cool things that solve real problems.
+##### This application is part of my ongoing project to build cool things that solve real problems.
